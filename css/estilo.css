@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+
+    }
+    body {
+        background-image: url(/imagenes/oceano.jpg);
+        background-size: cover;
+ 
+    }
+    .contenedor {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+    
+    h1,
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .sectionflex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tortuga {
+        width:300px;
+        height: 300px;
+        margin: 3%;
+        border: 2px burlywood solid;
+        text-align: center;
+        border-radius: 5px;
+    
+    }
+    .tortuga img {
+        width: 80%;
+        border-radius: 3%;
+    }
+    .infotortuga p {
+        text-align: center;
+        margin-top: 5%;
+    }
+    footer {
+        background-color: aquamarine;
+        color: white;
+        height: 80%;
+        text-align: center;
+    }
+    footer p {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .infotortuga {
+        text-align: justify;
+        margin: 2%;
+    }
+    
+    h2 {
+        font-weight: bold;
+    }
+    .nav li {
+        margin-right: 10px;
+    }
